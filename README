@@ -1,0 +1,16 @@
+UITableViewExtendedAnimations category allows to perform new animations,
+such as moving cells, exchanging cells, and making transitions from one
+cell to another.
+There are three new methods on UITableView:
+-moveRowAtIndexPath:toIndexPath:
+-transitRowAtIndexPath:toRowIndexPath:
+-exchangeRowAtIndexPath:withRowAtIndexPath:
+
+This was done using a regular Objective-C category. 
+
+To perform such animations UITableViewDelegate protocol was extended.
+There are a couple of new methods you have to implement to make these
+animations possible. Take a look at example project to see that methods.
+
+Video of the sample project:
+http://www.youtube.com/embed/bC-YTq9C0Sk
